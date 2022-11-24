@@ -16,11 +16,18 @@ html {
 .header {
   text-align: center;
   margin-top: 100px;
+  color: #fff;
+}
+
+.sub_heading{
+  color: #fff;
 }
 
 .container {
-  width: 300px;
+  width: 578px;
   margin: auto auto;
+  border: 10px solid #fff;
+  padding: 49px;
 }
 
 label,
@@ -50,8 +57,9 @@ input {
 
 #calculate-number {
   background-color: var(--background-dark);
-  border: 2px solid var(--black);
-  color: var(--black);
+  border: 2px solid #fff;
+  /* color: var(--black); */
+  color: #fff;
   padding: 0.4rem 1rem;
   border-radius: 0.5rem;
   font-size: large;
@@ -72,6 +80,7 @@ input {
   border-color: var(--black);
   border-width: medium;
   border-radius: 5px;
+  color: #fff;
 }
 
 /* footer */
